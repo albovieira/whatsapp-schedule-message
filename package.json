@@ -1,7 +1,7 @@
 {
-  "name": "whatsapp-automatic-message",
+  "name": "whatsapp-schedule-message",
   "version": "0.0.0",
-  "description": "",
+  "description": "A schedule to send messages given a mount of time",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
