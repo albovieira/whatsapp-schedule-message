@@ -4,7 +4,6 @@ var whatsAppSchedule = {
     input: '.input-container',
     btnSender: '.icon.btn-icon.icon-send',
 
-
     dispatch: function(target, eventType, text){
         var evt = document.createEvent("TextEvent");
         evt.initTextEvent(eventType, true, true, window, text, 0, "pt-BR");
@@ -31,5 +30,7 @@ var whatsAppSchedule = {
             whatsAppSchedule.send(text)
         },time)
     }
+
+
 
 };
